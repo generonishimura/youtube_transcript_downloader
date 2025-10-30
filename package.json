@@ -1,0 +1,25 @@
+{
+  "name": "youtube_transcript_downloader",
+  "version": "1.0.0",
+  "description": "YouTube動画の書き起こしをプレーンテキスト形式でダウンロードできるChrome拡張機能です。",
+  "main": "content.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate-icons": "node generate_icons.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/generonishimura/youtube_describe_downloader.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/generonishimura/youtube_describe_downloader/issues"
+  },
+  "homepage": "https://github.com/generonishimura/youtube_describe_downloader#readme",
+  "devDependencies": {
+    "sharp": "^0.34.4"
+  }
+}
