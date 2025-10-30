@@ -3,7 +3,7 @@
   "name": "YouTubeTranscriptDownloader",
   "version": "1.0.0",
   "description": "YouTube動画の書き起こしをプレーンテキストでダウンロードします",
-  "permissions": ["activeTab", "downloads"],
+  "permissions": ["activeTab"],
   "host_permissions": ["https://www.youtube.com/*"],
   "content_scripts": [
     {
